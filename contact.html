@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav> 
+        <a href="index.html"> <img src="pics/home.png" alt="home"></a>
+        <a href="merch.html"> <img src="pics/merch.png" alt="merchandise"></a>
+        <a href="aboutus.html"> <img src="pics/aboutus.png" alt="aboutus"></a>
+        <a class="active" href="contact.html"> <img src="pics/contact.png" alt="contact"></a>
+    </nav> 
+    <img class="logo" src="pics/logo.png" alt="logo"></a>
+    <main>     
+        <form action="bedankt.html">
+            <div class="formField">
+                <label for="firstName">Voornaam</label>
+                <input type=" text" id=" firstName" name="firstName" placeholder="enter your name" required>
+            </div>
+            <div class="formField">
+                <label for="birthDate">Geboortedatum</label>
+                <input type="date" id="birthDate" name="birthDate">
+            </div>
+            <div class="formField">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="yourmail@outlook.com">
+            </div>
+            <div class="formField">
+                <label for="contactType">Reden van contact</label>
+                <select name="contactType" id="contactType">
+                    <option value="question">Ik heb een vraag </option>
+                    <option value="apply">Ik heb feedback</option>
+                    <option value="tip"> Anders.. </option>
+                </select>
+                <input type="checkbox" id="yes" name="yes" value="yes">
+                <label for="wel"> Spoed </label>
+                <input type="checkbox" id="no" name="no" value="no">
+                <label for="niet"> Normaal </label>
+                <br>
+                <label for="subject">Subject:</label>
+                <br>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                <br>
+                <button type="submit">Verstuur</button> </div>
+        </form>   
+    </main>
+</body>
+</html>
