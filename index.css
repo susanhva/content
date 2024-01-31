@@ -20,7 +20,6 @@ nav a:active {
 }
 
 body {
-    background-color: white;
     color: #292F33;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,16 +54,21 @@ img{
 form{
     dispLay: flex;
     flex-direction: column;
-    font-family: cursive;
     margin-top: 2vh;
    margin-bottom: 20vh;
+   width: 20vw;
+   height: 20vh;
+   font-size: 2em;
    }
    .formField {
        align-self: left;
-       margin-left: 10vw;
+       margin-left: 1vw;
    }
    button{ 
-       background-color: #C2D8E3;}
+       background-color: #C2D8E3;
+       width: 20vw;
+       height: 20vh;
+       font-size: 2em;}
 
     .logo{
         float: right;
@@ -74,3 +78,4 @@ form{
    .pic{
         padding-left:2vw;
     }
+
