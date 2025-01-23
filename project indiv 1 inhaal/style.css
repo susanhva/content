@@ -1,0 +1,168 @@
+body {
+    background: #D09BB9;
+    margin: 0;
+    font-family:sans-serif;
+    color: white;
+}
+
+
+
+header {
+    background: white;
+    margin: 0px;
+    display:flex;
+    align-items: center;
+    
+}
+
+.logotje {
+    max-height:120px;
+    
+}
+
+a:hover, a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+.nav {
+    color: #801424;
+    font-size: 22px;
+    margin: 3px;
+    font-weight: bold;
+    position: relative;
+    bottom: 33px;
+    margin-left: 15px;
+}
+
+.nails {
+    background-color: #B56A95;
+}
+
+
+
+form {
+    margin-left: 35px
+}
+
+.winkelmand {
+    max-height: 50px;
+    float:right;
+    margin-right: 20px;
+    margin-bottom: 500px;
+    position:relative;
+    bottom: 11px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.product {
+    margin-left: 28px;
+    padding: 0;
+}
+
+.sustainable {
+    display:inline; 
+    padding: 10px;
+    
+}
+
+.sustainable li {
+    list-style-type: disc; 
+    margin-left: 30px;
+    margin-right: 3vh;
+    font-size: 14px;
+    font-size: 14px;
+}
+
+li {
+   margin-left: 0px;
+   margin-right: 10px;
+   
+}
+
+h1 {
+    margin-left: 2vh;
+    font-size: 30px;
+}
+
+h2 {
+    margin-left: 2vh;
+    font-size: 30px;
+}
+
+p {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 14px;
+}
+
+.coco {
+    max-height: 255px;
+    float: right;
+    margin-left: 5px;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-left: 0vh;
+    margin-top: 13px;
+    background-color: #D09BB9;
+}
+
+.insta {
+    max-height: 105px;
+    margin-bottom: 27px;
+}
+
+
+.socials {
+    max-height: 100px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+ol section {
+    display: flex;
+}
+
+ol li {
+    list-style-type:decimal;
+    margin-left: 4px;
+}
+
+ol img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 19px;
+    margin-bottom: 2px;
+    color:#801424;
+}
+
+form button {
+    color: white;
+    background-color: #801424;
+    height: 50px;
+    width: 157px;
+    font-size: larger;
+}
+
+
+.footcolor {
+    background-color: #B56A95;
+}
+
+.footies {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
